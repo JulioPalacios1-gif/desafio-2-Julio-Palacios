@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+
+
+body{
+    background-color:#C0D7BB;
+    font-family: "Quicksand", sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 150px;
+    background-color:#2F4B26 ;
+}
+header img{
+    display: flex;
+    justify-content: center;
+    width: 75px;
+    height: 75px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    margin-left: 48%;
+}
+
+nav{
+    display:flex;
+    justify-content: space-around;
+}
+
+nav a{
+    font-size: 19px;
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: #00f38e;
+    text-decoration: overline;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card{
+    width: 200px;
+    height: 200px;
+    margin: 60px;
+}
+
+.card img{
+    width: 100%;
+}
+
+main h1{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+
+section{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.container{
+    width: 200px;
+    height: 200px;
+    margin: 60px;
+}
+
+
+.container img{
+    width: 100%;
+}
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 70px;
+    background-color: #2F4B26;
+}
+
+footer p{
+    color: white;
+}
+
