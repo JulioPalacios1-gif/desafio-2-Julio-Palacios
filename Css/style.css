@@ -7,10 +7,20 @@ body{
     font-family: "Quicksand", sans-serif;
 }
 
+.inicioIMG{
+    font-family: "Quicksand", sans-serif;
+    background-image: url(../img/un\ fondo\ de\ colores\ verdes\ imitando\ una\ pintura\ abstacta\ o\ una\ acue.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
 header{
     width: 100%;
     height: 150px;
-    background-color:#2F4B26 ;
+    background-color:#486b3c ;
+    opacity: 0.9;
 }
 header img{
     display: flex;
@@ -42,6 +52,7 @@ main{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    
 }
 .card{
     width: 200px;
@@ -53,12 +64,11 @@ main{
     width: 100%;
 }
 
-main h1{
-    display: flex;
+.tittle1 h1{
+    display:flex;
     justify-content: center;
-    padding-top: 50px;
+    
 }
-
 
 section{
     margin-top: 50px;
@@ -78,15 +88,68 @@ section{
 }
 
 
-footer{
+footer{ 
     display: flex;
     justify-content: center;
+    align-items: flex-end;
     width: 100%;
     height: 70px;
-    background-color: #2F4B26;
+    background-color: #486b3c;
+    opacity: 0.8;
 }
 
 footer p{
     color: white;
 }
 
+.inicio{
+    margin-top: 300px;
+    margin-bottom: 300px;
+}
+
+.inicio button{
+border-radius: 5%;
+background-color: #2F4B26;
+padding: 10px;
+}
+
+.inicio a{
+    text-decoration: none;
+    color: white;
+}
+
+.inicio button:hover{
+    background-color: #219967;
+}
+
+.inicio h1{
+    font-size: 40px;
+    color: white;
+}
+
+.inicio h3{
+    font-size: 30px;
+    color: white;
+}
+
+
+
+.mainHistoria{
+    margin-top: 150px;
+    margin-bottom: 300px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.mainHistoria h1{
+    font-size: 40px;
+}
+.mainHistoria p{
+    font-size: 20px;
+}
+
+
+.mainHistoria img{
+    border: 4px solid white;
+    border-radius: 5%;
+}
